@@ -1,0 +1,16 @@
+<mvc:View controllerName="stoui5.controller.Home"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            	<List
+                    headerText="Sales"
+                    binding="{/Sales}" >
+                    <StandardListItem
+                        title="{ID}"
+                        description="region"
+                        type="Navigation" />
+                </List>
+        </content>
+    </Page>
+</mvc:View>
