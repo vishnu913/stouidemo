@@ -94,7 +94,7 @@
         "async": true,
         "viewPath": "stoui5.view",
         "controlAggregation": "pages",
-        "controlId": "app",
+        "controlId": "mainapp",
         "clearControlAggregation": false
       },
       "routes": [
@@ -117,10 +117,10 @@
       }
     },
     "rootView": {
-      "viewName": "stoui5.view.App",
+      "viewName": "stoui5.view.Home",
       "type": "XML",
       "async": true,
-      "id": "App"
+      "id": "Home"
     }
   }
 }
